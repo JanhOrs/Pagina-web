@@ -23,17 +23,17 @@
         <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
 
         <ul class="navmenu">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="tienda.html">Tienda</a></li>
             <li><a href="#">Productos</a>
                 <ul class="Submenu">
-                   <li><a href="hombre.html">Ropa Hombre</a></li>
-                <li><a href="mujer.html">Ropa Mujer</a></li>
-                <li><a href="accesorios.html">Zapatos y Accesorios</a></li>
-                </ul>
+                    <li><a href="hombre.html">Ropa Hombre</a></li>
+                 <li><a href="mujer.html">Ropa Mujer</a></li>
+                 <li><a href="accesorios.html">Zapatos y Accesorios</a></li>
+                 </ul>
             </li>
             <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
-            <li><a href="contacto.html">registro</a></li>
+            <li><a href="contacto.html">Registro</a></li>
         </ul>
         <div class="nav-icon">
             <a href="favoritos.html"><i class='bx bx-heart'></i></a>
@@ -47,64 +47,27 @@
                     <h4>Total: $<span id="cart-total">0</span></h4>
                 </div>
             </div>
-        
+
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
-    
-
-    <section class="main-home">
-        <div class="main-text">
-            <h5>colección de octubre</h5>
-            <h1>Nueva Colección <br> Octubre 2024 </h1>
-            <p>Viste con estilo y calidad</p>
-
-            <a href="#" class="main-btn">Comprar ahora<i class='bx bx-right-arrow-alt'></i></a>
-        </div>
-
-        <div class="down-arrow">
-            <a href="#trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
-        </div>
-    </section>
-
-    <!--Categorias-->
-
-    <section class="container top-categories">
-        <h2 class="heading-1">Categorias</h2>
-        <div class="container-categories">
-            <div class="card-category category-mujer">
-                <p>Ropa Mujer</p>
-                <span><a href="mujer.html" class="nav-link">Ver más</a></span>
-            </div>
-
-            <div class="card-category category-hombre">
-                <p>Ropa Hombre</p>
-                <span><a href="hombre.html" class="nav-link">Ver más</a></span>
-            </div>
-
-            <div class="card-category category-accesorios">
-                <p>Accesorios y zapatos</p>
-                <span><a href="accesorios.html" class="nav-link">Ver más</a></span>
-            </div>
-        </div>
-    </section>
 
 
+    <!--productos de hombre-->
 
-    <!--productos en tendencia-->
     <section class="trending-product" id="trending">
         <div class="center-text">
-            <h2>Productos en<span> Tendencia</span></h2>
+            <h2>Productos de<span> Hombre</span></h2>
         </div>
 
         <div class="products">
             <div class="row">
-                <img src="img/1.jpg" alt="">
+                <img src="img/19.jpg" alt="">
                 <div class="product-text">
                     <h5>Oferta</h5>
                 </div>
                 <div class="heart-icon">
-                    <i class='bx bx-heart' onclick="toggleFavorite('Chaqueta Peluche', '$160.000', 'img/1.jpg', this)"></i>
+                    <i class='bx bx-heart' onclick="toggleFavorite('Blazer para hombre', '$135.000', 'img/19.jpg', this)"></i>
                 </div>
                 <div class="ratting">
                     <i class='bx bxs-star'></i>
@@ -115,19 +78,19 @@
                 </div>
 
                 <div class="price">
-                    <h4>Chaqueta Peluche</h4>
-                    <p>$160.000</p>
+                    <h4>Blazer para hombre</h4>
+                    <p>$135.000</p>
                 </div>
-                <button onclick="addToCart('Chaqueta Peluche', '$160.000', 'img/1.jpg')">Agregar al Carrito</button>
+                <button onclick="addToCart('Blazer para hombre', '$135.000', 'img/19.jpg')">Agregar al Carrito</button>
             </div>
 
             <div class="row">
-                <img src="img/2.jpg" alt="">
+                <img src="img/20.jpg" alt="">
                 <div class="product-text">
                     <h5>Nuevo</h5>
                 </div>
                 <div class="heart-icon">
-                    <i class='bx bx-heart' onclick="toggleFavorite('Jean Cargo Dama', '$110.000', 'img/2.jpg', this)"></i>
+                    <i class='bx bx-heart' onclick="toggleFavorite('Camiseta minimalist', '$48.000', 'img/20.jpg', this)"></i>
                 </div>
                 <div class="ratting">
                     <i class='bx bxs-star'></i>
@@ -138,17 +101,17 @@
                 </div>
 
                 <div class="price">
-                    <h4>Jean Cargo Dama</h4>
-                    <p>$110.000 Talla 6-12</p>
+                    <h4>Camiseta minimalist</h4>
+                    <p>$48.000</p>
                 </div>
-                <button onclick="addToCart('Jean cargo Dama', '$110.000', 'img/2.jpg')">Agregar al Carrito</button>
+                <button onclick="addToCart('Camiseta minimalist', '$48.000', 'img/20.jpg')">Agregar al Carrito</button>
             </div>
 
             <div class="row">
-                <img src="img/3.jpg" alt="">
+                <img src="img/21.jpg" alt="">
 
                 <div class="heart-icon">
-                    <i class='bx bx-heart' onclick="toggleFavorite('Gabardina Paño', '$170.000', 'img/3.jpg', this)"></i>
+                    <i class='bx bx-heart' onclick="toggleFavorite('Camisa manga larga', '$65.000', 'img/21.jpg', this)"></i>
                 </div>
                 <div class="ratting">
                     <i class='bx bxs-star' ></i>
@@ -159,63 +122,63 @@
                 </div>
 
                 <div class="price">
-                    <h4>Gabardina Paño</h4>
-                    <p>$170.000</p>
+                    <h4>Camisa manga larga</h4>
+                    <p>$65.000</p>
                 </div>
-                <button onclick="addToCart('Gabardina Paño', '$170.000', 'img/3.jpg')">Agregar al Carrito</button>
+                <button onclick="addToCart('Camisa manga larga', '$65.000', 'img/21.jpg')">Agregar al Carrito</button>
             </div>
 
             <div class="row">
-                <img src="img/4.jpg" alt="">
-                <div class="product-text">
-                    <h5>Nuevo</h5>
-                </div>
-                <div class="heart-icon">
-                    <i class='bx bx-heart' onclick="toggleFavorite('Gaban Lino Dama', '$150.000', 'img/4.jpg', this)"></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bxs-star' ></i>
-                    <i class='bx bxs-star' ></i>
-                    <i class='bx bxs-star' ></i>
-                    <i class='bx bxs-star' ></i>
-                    <i class='bx bxs-star-half' ></i>
-                </div>
-
-                <div class="price">
-                    <h4>Gaban Lino Dama</h4>
-                    <p>$150.000</p>
-                </div>
-                <button onclick="addToCart('Gaban Lino Dama', '$150.000', 'img/4.jpg')">Agregar al Carrito</button>
-            </div>
-
-            <div class="row">
-                <img src="img/5.jpg" alt="">
-
-                <div class="heart-icon">
-                    <i class='bx bx-heart' onclick="toggleFavorite('Conjunto Pantanlon-Chaleco', '$170.000', 'img/5.jpg', this)"></i>
-                </div>
-                <div class="ratting">
-                    <i class='bx bxs-star' ></i>
-                    <i class='bx bxs-star' ></i>
-                    <i class='bx bxs-star' ></i>
-                    <i class='bx bxs-star' ></i>
-                    <i class='bx bxs-star' ></i>
-                </div>
-
-                <div class="price">
-                    <h4>Conjunto Pantalón-Chaleco</h4>
-                    <p>$170.000 Talla s-m-l</p>
-                </div>
-                <button onclick="addToCart('Conjunto Pantanlon-Chaleco', '$170.000', 'img/5.jpg')">Agregar al Carrito</button>
-            </div>
-
-            <div class="row">
-                <img src="img/6.jpg" alt="">
+                <img src="img/22.jpg" alt="">
                 <div class="product-text">
                     <h5>Tendencia</h5>
                 </div>
                 <div class="heart-icon">
-                    <i class='bx bx-heart' onclick="toggleFavorite('Chaqueta Ovejera Dama', '$145.000', 'img/6.jpg', this)"></i>
+                    <i class='bx bx-heart' onclick="toggleFavorite('Camiseta tipo polo', '$58.000', 'img/22.jpg', this)"></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+
+                <div class="price">
+                    <h4>Camiseta tipo polo</h4>
+                    <p>$58.000</p>
+                </div>
+                <button onclick="addToCart('Camiseta tipo polo', '$58.000', 'img/22.jpg')">Agregar al Carrito</button>
+            </div>
+
+            <div class="row">
+                <img src="img/23.jpg" alt="">
+
+                <div class="heart-icon">
+                    <i class='bx bx-heart' onclick="toggleFavorite('Chaqueta cazadora paño', '$98.000', 'img/23.jpg', this)"></i>
+                </div>
+                <div class="ratting">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                </div>
+
+                <div class="price">
+                    <h4>Chaqueta cazadora paño</h4>
+                    <p>$98.000 Talla s-m-l</p>
+                </div>
+                <button onclick="addToCart('Chaqueta cazadora paño', '$98.000', 'img/23.jpg')">Agregar al Carrito</button>
+            </div>
+
+            <div class="row">
+                <img src="img/24.jpg" alt="">
+                <div class="product-text">
+                    <h5>Tendencia</h5>
+                </div>
+                <div class="heart-icon">
+                    <i class='bx bx-heart' onclick="toggleFavorite('Camisa seda fria', '$58.000', 'img/24.jpg', this)"></i>
                 </div>
                 <div class="ratting">
                     <i class='bx bxs-star' ></i>
@@ -226,16 +189,16 @@
                 </div>
 
                 <div class="price">
-                    <h4>Chaqueta Ovejera Dama</h4>
-                    <p>$145.000</p>
+                    <h4>Camisa seda fria</h4>
+                    <p>$58.000</p>
                 </div>
-                <button onclick="addToCart('Chaqueta Ovejera Dama', '$145.000', 'img/6.jpg')">Agregar al Carrito</button>
+                <button onclick="addToCart('Camisa seda fria', '$58.000', 'img/24.jpg')">Agregar al Carrito</button>
             </div>
 
             <div class="row">
                 <img src="img/7.jpg" alt="">
                 <div class="product-text">
-                    <h5>Nuevo</h5>
+                    <h5>Oferta</h5>
                 </div>
                 <div class="heart-icon">
                     <i class='bx bx-heart' onclick="toggleFavorite('Gaban en paño Hombre', '$150.000', 'img/7.jpg', this)"></i>
@@ -258,7 +221,7 @@
             <div class="row">
                 <img src="img/8.jpg" alt="">
                 <div class="product-text">
-                    <h5>Mas vendido</h5>
+                    <h5>Oferta</h5>
                 </div>
                 <div class="heart-icon">
                     <i class='bx bx-heart' onclick="toggleFavorite('Hoddie Hombre', '$70.000', 'img/8.jpg', this)"></i>
@@ -278,12 +241,12 @@
                 <button onclick="addToCart('Hoddie Hombre', '$70.000', 'img/8.jpg')">Agregar al Carrito</button>
             </div>
             <div class="row">
-                <img src="img/10.jpg" alt="">
+                <img src="img/25.jpg" alt="">
                 <div class="product-text">
-                    <h5>Oferta</h5>
+                    <h5>Tendencia</h5>
                 </div>
                 <div class="heart-icon">
-                    <i class='bx bx-heart' onclick="toggleFavorite('Jean Cargo dama', '$110.000', 'img/10.jpg', this)"></i>
+                    <i class='bx bx-heart' onclick="toggleFavorite('Sudadera Hombre', '$160.000', 'img/25.jpg', this)"></i>
                 </div>
                 <div class="ratting">
                     <i class='bx bxs-star' ></i>
@@ -294,10 +257,10 @@
                 </div>
 
                 <div class="price">
-                    <h4>Jean cargo dama</h4>
-                    <p>$110.000</p>
+                    <h4>Sudadera Hombre</h4>
+                    <p>$160.000</p>
                 </div>
-                <button onclick="addToCart('Jean Cargo dama', '$110.000', 'img/10.jpg')">Agregar al Carrito</button>
+                <button onclick="addToCart('Sudadera Hombre', '$160.000', 'img/25.jpg')">Agregar al Carrito</button>
             </div>
             <div class="row">
                 <img src="img/9.jpg" alt="">
@@ -313,7 +276,7 @@
                 </div>
 
                 <div class="price">
-                    <h4>Chaqueta clasica cuerotex</h4>
+                    <h4>Chaqueta Clasica cuerotex</h4>
                     <p>$135.000</p>
                 </div>
                 <button onclick="addToCart('Chaqueta Clasica cuerotex', '$135.000', 'img/9.jpg')">Agregar al Carrito</button>
@@ -340,7 +303,7 @@
             <div class="row">
                 <img src="img/12.jpg" alt="">
                 <div class="product-text">
-                    <h5>Sale</h5>
+                    <h5>Oferta</h5>
                 </div>
                 <div class="heart-icon">
                     <i class='bx bx-heart' onclick="toggleFavorite('Camiseta basica', '$37.000', 'img/12.jpg', this)"></i>
@@ -362,54 +325,7 @@
         </div>        
     </section>
 
-    <!--Seccion de clientes-->
-
-    <section class="client-reviews">
-        <div class="reviews">
-            <h3>Comentarios de clientes</h3>
-            <img src="img/f1.jpg">
-            <p>¡Estoy encantada con mi compra! La ropa llegó en perfectas condiciones y el envío fue muy<br> rápido. La calidad es excelente y los diseños son aún más bonitos en persona. Definitivamente<br>volveré a comprar. ¡Gracias por ofrecer un servicio tan maravilloso!</p>
-
-            <h2>Sofia Gonzales</h2>
-            <p>Empresaria</p>
-        </div>
-    </section>
-
-    <!--Seccion de updates-->
-    <section class="Update-news">
-        <div class="up-center-text">
-            <h2>Actualizaciones</h2>
-        </div>
-
-        <div class="update-cart">
-            <div class="cart">
-                <img src="img/bl-1.jpg" alt="">
-                <h5>20 Oct 2024</h5>
-                <h4>¿Ya viste la nueva colección de Octubre?</h4>
-                <p>Este octubre, sumérgete en el estilo y la elegancia con nuestra nueva colección de ropa y accesorios para hombres y mujeres. Hemos diseñado cada pieza pensando en las tendencias actuales, la comodidad y la versatilidad que necesitas en tu día a día.¡Te esperamos con los brazos abiertos y muchas sorpresas!</p>
-
-                <h6>Sigue leyendo..</h6>
-            </div>
-
-            <div class="cart">
-                <img src="img/bl-2.jpg" alt="">
-                <h5>29 Sept 2024</h5>
-                <h4>¡Desde Septiembre se siente diciembre!</h4>
-                <p>Celebra la llegada de la temporada festiva con nuestra exclusiva colección de fin de año, diseñada para hombres y mujeres que desean brillar en cada ocasión. Desde reuniones familiares hasta fiestas de fin de año, tenemos todo lo que necesitas para lucir espectacular.</p>
-
-                <h6>Sigue leyendo..</h6>
-            </div>
-
-            <div class="cart">
-                <img src="img/bl-3.jpg" alt="">
-                <h5>01 Sept 2024</h5>
-                <h4>¿Los accesorios elevan tu outfit?</h4>
-                <p>Los accesorios son el toque mágico que transforma un atuendo básico en un look espectacular. A menudo subestimados, estos elementos pueden cambiar por completo la percepción de tu estilo.Los accesorios reflejan tu personalidad.</p>
-
-                <h6>Sigue leyendo..</h6>
-            </div>
-        </div>
-    </section>
+    <script src="java.js"></script>
 
     <!--seccion de contacto-->
     <section class="contact">
@@ -470,8 +386,6 @@
     </div>
     
     <script src="java.js"></script>
-    <script src="cart.js"></script>
-
 
 </body>
 </html>
