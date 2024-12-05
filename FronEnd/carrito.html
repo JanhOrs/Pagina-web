@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devotion By God</title>
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fuentes y Iconos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="/img/logo.png" alt="Logo"></a>
+        <ul class="navmenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="#">Productos</a>
+                <ul class="Submenu">
+                    <li><a href="hombre.html">Ropa Hombre</a></li>
+                    <li><a href="mujer.html">Ropa Mujer</a></li>
+                    <li><a href="#">Zapatos y Accesorios</a></li>
+                </ul>
+            </li>
+            <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+            <li><a href="contacto.html">Registro</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="favoritos.html"><i class='bx bx-heart'></i></a>
+            <a href="cuenta.html"><i class='bx bx-user'></i></a>
+            <a href="carrito.html" id="cart-icon"><i class='bx bx-cart'></i></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="cart-container">
+            <h2>Productos en el Carrito</h2>
+            <div id="cart-items"></div>
+            <div class="cart-total">
+                <h4>Total: $<span id="cart-total">0</span></h4>
+            </div>
+            <button id="purchase-button">Realizar Compra</button>
+        </div>
+    </main>
+
+    <!-- Sección de contacto -->
+    <section class="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <img src="img/logo.png" alt="Logo">
+                <p>Calle 1b #52b-29,<br>La Ponderosa, Bogotá D.C</p>
+                <p>+57 3205185464</p>
+                <p>Devotionbygod_05@gmail.com</p>
+                <div class="social-icon">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/devotionoficial/profilecard/?igsh=MTdiaWhwMWk3cHhwNA=="><i class='bx bxl-instagram'></i></a>
+                    <a href="https://wa.me/message/ORIAPYJLW7ZMP1?src=qr"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+
+            <div class="second-info">
+                <h4>Soporte</h4>
+                <a href="https://wa.me/message/ORIAPYJLW7ZMP1?src=qr"><p>Contáctanos</p></a>
+                <a href="sobrenosotros.html"><p>Sobre nosotros</p></a>
+                <a href="tallas.html"><p>Guía de tallas</p></a>
+                <a href="favoritos.html"><p>Favoritos</p></a>
+            </div>
+
+            <div class="third-info">
+                <h4>Tienda</h4>
+                <a href="hombre.html"><p>Sección de Hombre</p></a>
+                <a href="mujer.html"><p>Sección de Mujer</p></a>
+                <a href="accesorios.html"><p>Accesorios</p></a>
+                <a href="accesorios.html"><p>Calzado</p></a>
+            </div>
+
+            <div class="fourth-info">
+                <h4>Compañía</h4>
+                <a href="sobrenosotros.html"><p>Sobre nosotros</p></a>
+                <a href="contacto.html"><p>Registro</p></a>
+                <a href="cuenta.html"><p>Cuenta</p></a>
+            </div>
+
+            <div class="five">
+                <h4>Suscríbete</h4>
+                <a href="https://www.instagram.com/devotionoficial/profilecard/?igsh=MTdiaWhwMWk3cHhwNA=="><p>Recibe actualizaciones sobre nuestros productos</p></a>
+                <a href="contacto.html"><p>Crea tu cuenta para no perderte de ningún detalle</p></a>
+                <a href="https://wa.me/message/ORIAPYJLW7ZMP1?src=qr"><p>Contáctanos en nuestras redes sociales</p></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="end-text">
+            <p>Copyright © 2024. Todos los derechos reservados a Devotion By God</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="java.js"></script>
+</body>
+</html>
